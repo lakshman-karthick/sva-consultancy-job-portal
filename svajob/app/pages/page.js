@@ -62,7 +62,7 @@ const JobApplicationsPage = () => {
                                 <td className="border px-4 py-2">{application.mobileno}</td>
                                 <td className="border px-4 py-2">
                                     <a
-                                        href={`http://localhost:8000/${application.resume}`}
+                                        href={`https://sva-consultancy-job-portal.onrender.com/${application.resume}`}
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         download
