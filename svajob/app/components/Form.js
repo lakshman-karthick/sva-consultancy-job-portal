@@ -33,7 +33,7 @@ export default function Form({forwardedRef}) {
 
     try {
       const response = await axios.post(
-        'http://localhost:8000/api/v1/svajobportal/jobApplication',
+        'https://sva-consultancy-job-portal.onrender.com/api/v1/svajobportal/jobapplication',
         data,
         {
           headers: {

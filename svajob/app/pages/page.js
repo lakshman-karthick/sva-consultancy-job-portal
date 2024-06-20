@@ -8,7 +8,7 @@ const JobApplicationsPage = () => {
     useEffect(() => {
         const fetchApplications = async () => {
             try {
-                const response = await axios.get('http://localhost:8000/api/v1/svajobportal/jobApplication');
+                const response = await axios.get('https://sva-consultancy-job-portal.onrender.com/api/v1/svajobportal/jobapplication');
                 setApplications(response.data);
             } catch (error) {
                 console.error('Error fetching job applications:', error);
@@ -20,7 +20,7 @@ const JobApplicationsPage = () => {
 
     const handleDelete = async (id) => {
         try {
-            await axios.delete(`http://localhost:8000/api/v1/svajobportal/jobApplication/${id}`,{
+            await axios.delete(`https://sva-consultancy-job-portal.onrender.com/api/v1/svajobportal/jobapplication/${id}`,{
                 id: id
             }).then(()=>{
                 console.log("Deleted Successfully")
