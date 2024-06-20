@@ -1,0 +1,10 @@
+POST http://localhost:8000/api/v1/svajobportal/jobApplication
+Content-Type: application/json
+
+{
+    "firstname" : "Lakshman",
+    "lastname": "Karthick T",
+    "email": "lachu@gmail.com",
+    "profileImage": "https://ss-i.thgim.com/public/incoming/innftq/article66484710.ece/alternates/FREE_1200/1464013415.jpg",
+    "theme": "Discuss about BGT"
+}
