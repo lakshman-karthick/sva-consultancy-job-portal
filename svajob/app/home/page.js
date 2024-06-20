@@ -6,7 +6,7 @@ import About from '/app/components/About'
 import Footer from '/app/components/Footer'
 import Form from '../components/Form'
 
-function page() {
+function Page() {
   const targetRef = useRef(null);
 
   const handleScroll = () => {
@@ -26,4 +26,4 @@ function page() {
   )
 }
 
-export default page
+export default Page
